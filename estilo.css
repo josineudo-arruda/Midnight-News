@@ -84,7 +84,7 @@ main div#banner-principal div.banner-image {
 
 main div#banner-principal div.banner-image:hover {
     box-shadow: 1px 1px 10px 1px #2c344379;
-    transform: scale(1.05);
+    transform: scale(1.02);
     filter:brightness(50%);
 }
 
