@@ -22,7 +22,6 @@
 header {
     background: rgb(2,0,36);
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(99,82,116,1) 100%);
-    position: absolute;
     z-index: -1;
     width: 100%;
     box-shadow: 1px 1px 10px 1px #2c344379;
@@ -30,7 +29,7 @@ header {
     overflow: hidden;
 }
 
-header img:first-child {
+header nav img {
     width: 180px;
     padding: 10px;
 }
@@ -39,7 +38,7 @@ nav ul {
     color: #FFFEDF;
     font-family: "Familjen Grotesk", sans-serif;
     font-weight: 600;
-    transition: 0.5 ease-in;
+    transition: 0.5s ease-in-out;
     float: right;
 }
 
@@ -55,3 +54,19 @@ nav ul a {
 nav ul a:last-child {margin: 9px 10px 5px 5px;}
 
 nav ul a:hover {background-color: rgba(2,0,36,1);}
+
+main {
+    margin: 20px;
+    padding: 15px;
+    width: 60vw;
+}
+
+main div#banner-principal img {
+    width: 100%; 
+    transition: 0.5s ease;
+}
+
+main div#banner-principal img:hover {
+    box-shadow: 1px 1px 10px 1px #2c344379;
+    transform: scale(1.05);
+}
