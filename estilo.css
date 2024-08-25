@@ -2,7 +2,7 @@
     Paleta de Cores:
     - Roxo Escuro #2E0D23
     - Roxo Leve #635274
-    - Azul NavBar #3E4147
+    - Azul NavBar #2C3443
     - Branco Fundo #FFFEDF
     - Cinza Claro #D7D8C5
     - Verde Água #70AA87
@@ -12,30 +12,51 @@
     - Vermelho #F21D41
 */
 
+@import url('https://fonts.googleapis.com/css2?family=Familjen+Grotesk:ital,wght@0,400..700;1,400..700&display=swap');
+
+
 * {
     margin:0;
     padding:0;
 }
 
 header img:first-child {
-    width: 200px;
+    width: 180px;
     padding: 10px;
 }
 
 header {
-    background-color: #3E4147;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(99,82,116,1) 100%);
     position: absolute;
     z-index: -1;
     width: 100%;
-    box-shadow: 1px 1px 10px 1px #2235589c;
+    box-shadow: 1px 1px 10px 1px #2c344379;
+    display: inline-block;
+    overflow: hidden;
 }
 
 nav ul {
-    text-align: right;
-    color: white;
+    color: #FFFEDF;
+    font-family: "Familjen Grotesk", sans-serif;
+    font-weight: 600;
+    transition: 0.5 ease-in;
+    float: right;
 }
 
-nav ul li {
-    display: inline;
-    text-;
+nav ul a:hover {
+    background-color: rgba(2,0,36,1);
+}
+
+nav ul a {
+    list-style-type: none;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 9px 5px 5px 5px;
+    display: inline-block;
+    text-decoration: none;
+}
+nav ul a:last-child {
+    margin: 9px 10px 5px 5px;
+
 }
