@@ -95,17 +95,23 @@ main div#banner-principal h2 {
     bottom: 8px;
     left: 16px;
     visibility: hidden;
+    color: #FFFEDF;
 }
 
 main a, main a:visited, main a:target {
     text-decoration: none;
-    color: #FFFEDF;
+    color: currentColor;
 }
 
 /* NOTICIAS */
 
-main div#banner-principal + h3 {
+main div#noticias-boxes h3 {
     margin-top: 20px;
     color: #2E0D23;
     font-size: 30px;
+}
+
+main div#noticias-boxes {
+    color: #2E0D23; 
+    font-family: Arial, Helvetica, sans-serif;
 }
