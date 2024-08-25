@@ -61,12 +61,33 @@ main {
     width: 60vw;
 }
 
-main div#banner-principal img {
+main div#banner-principal div.banner-image {
     width: 100%; 
+    height: 400px;
+    background-image: url(imagens/notícias/banner-triangulo.png);
+    background-position: center top;
+    background-size: 100% auto; /* 100% da imagem no banner */
     transition: 0.5s ease;
 }
 
-main div#banner-principal img:hover {
+main div#banner-principal div.banner-image:hover {
     box-shadow: 1px 1px 10px 1px #2c344379;
     transform: scale(1.05);
 }
+
+main div#banner-principal {
+    position: relative;
+}
+
+main div#banner-principal h2 {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    visibility: hidden;
+}
+
+main a, main a:visited, main a:target {
+    text-decoration: none;
+    color: #FFFEDF;
+}
+
