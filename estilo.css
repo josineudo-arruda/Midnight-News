@@ -14,15 +14,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Familjen+Grotesk:ital,wght@0,400..700;1,400..700&display=swap');
 
-
 * {
     margin:0;
     padding:0;
-}
-
-header img:first-child {
-    width: 180px;
-    padding: 10px;
 }
 
 header {
@@ -36,16 +30,17 @@ header {
     overflow: hidden;
 }
 
+header img:first-child {
+    width: 180px;
+    padding: 10px;
+}
+
 nav ul {
     color: #FFFEDF;
     font-family: "Familjen Grotesk", sans-serif;
     font-weight: 600;
     transition: 0.5 ease-in;
     float: right;
-}
-
-nav ul a:hover {
-    background-color: rgba(2,0,36,1);
 }
 
 nav ul a {
@@ -56,7 +51,7 @@ nav ul a {
     display: inline-block;
     text-decoration: none;
 }
-nav ul a:last-child {
-    margin: 9px 10px 5px 5px;
 
-}
+nav ul a:last-child {margin: 9px 10px 5px 5px;}
+
+nav ul a:hover {background-color: rgba(2,0,36,1);}
