@@ -115,3 +115,18 @@ main div#noticias-boxes {
     color: #2E0D23; 
     font-family: Arial, Helvetica, sans-serif;
 }
+
+main div#noticias-boxes div.noticias {
+    display: grid;
+    margin-top: 20px;
+    align-items: center;
+    grid-template-columns: auto auto;
+}
+
+main div.not-image {
+    width: 100%; 
+    height: 400px;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 100% auto; /* 100% da imagem no banner */
+}
