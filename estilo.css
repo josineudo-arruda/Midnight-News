@@ -1,3 +1,17 @@
+/* 
+    Paleta de Cores:
+    - Roxo Escuro #2E0D23
+    - Roxo Leve #635274
+    - Azul NavBar #3E4147
+    - Branco Fundo #FFFEDF
+    - Cinza Claro #D7D8C5
+    - Verde Água #70AA87
+    - Verde Água Leve #CDECCC
+    - Verde #55FF45
+    - Amarelo #FFB145
+    - Vermelho #F21D41
+*/
+
 * {
     margin:0;
     padding:0;
@@ -9,7 +23,7 @@ header img:first-child {
 }
 
 header {
-    background-color: #223558;
+    background-color: #3E4147;
     position: absolute;
     z-index: -1;
     width: 100%;
