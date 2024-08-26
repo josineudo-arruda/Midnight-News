@@ -31,11 +31,17 @@ h1, h2, h3, h4 {font-family: "Familjen Grotesk", sans-serif;}
 header {
     background: rgb(2,0,36);
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(99,82,116,1) 100%);
-    z-index: -1;
+    z-index: 1;
     width: 100%;
+    position: fixed;
     box-shadow: 1px 1px 10px 1px #2c344379;
     display: inline-block;
     overflow: hidden;
+    margin-top: -70px;
+}
+
+.center {
+    text-align: center;
 }
 
 header nav img {
@@ -67,7 +73,7 @@ nav ul a:hover {background-color: rgba(2,0,36,1);}
 /* BANNER */
 
 main {
-    margin: 10px 20px 20px 20px;
+    margin: 70px 20px 20px 20px;
     padding: 15px;
     width: 60vw;
 }
@@ -150,7 +156,7 @@ aside {
     color: #FFFEDF;
     padding: 20px;
     float: right;
-    margin: 25px 20px 20px 20px
+    margin: 12px 20px 20px 20px
 }
 
 aside hr {
@@ -209,4 +215,5 @@ aside input[type="submit"]:hover {
 aside form ul {
     text-align: center;
     list-style-type: none;
+    margin-top: 10px;
 }
