@@ -64,6 +64,7 @@ nav ul a {
     margin: 9px 5px 5px 5px;
     display: inline-block;
     text-decoration: none;
+    color: currentColor;
 }
 
 nav ul a:last-child {margin: 9px 10px 5px 5px;}
