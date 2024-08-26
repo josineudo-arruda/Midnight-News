@@ -151,7 +151,7 @@ main div.katy div.not-image {background-image: url(../imagens/notícias/not-katy
 
 aside {
     width: 30vw;
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(99,82,116,1) 100%);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgb(83, 42, 81) 100%);
     border-radius: 10px;
     color: #FFFEDF;
     padding: 20px;
@@ -166,7 +166,7 @@ aside hr {
 }
 
 aside p {
-    font-family: "Familjen Grotesk", sans-serif;;
+    font-family: "Familjen Grotesk", sans-serif;
     text-align: justify;
     color: #FFFEDF;
 }
@@ -182,7 +182,7 @@ aside form textarea {
 
 aside form {
     margin-top: 10px;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "Familjen Grotesk", sans-serif;
     font-size: 15px;
 }
 
@@ -197,23 +197,29 @@ aside input[type="submit"] {
     align-items: center;
     border: none;
     padding: 10px;
-    transition: 0.5s ease;
+    transition: 0.5s ease-out;
     margin-top: 15px;
     width: 98%;
 }
 
-aside form label {
-    margin-top: 10px;
+aside div form input {
+    margin-bottom: 10px;
+    margin-top: 3px;
 }
 
 aside input[type="submit"]:hover {
     border-radius: 10px;
     box-shadow: 1px 1px 10px 1px #2c344379;
-    filter:brightness(80%);
+    filter:brightness(90%);
+    font-weight: 500;
 }
 
 aside form ul {
     text-align: center;
     list-style-type: none;
+    margin-top: 10px;
+}
+
+aside div h3.ad {
     margin-top: 10px;
 }
