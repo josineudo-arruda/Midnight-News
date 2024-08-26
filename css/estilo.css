@@ -75,7 +75,7 @@ main {
 main div#banner-principal div.banner-image {
     width: 100%; 
     height: 370px;
-    background-image: url(imagens/notícias/banner-triangulo.png);
+    background-image: url(../imagens/notícias/banner-triangulo.png);
     background-repeat: no-repeat;
     background-position: center top;
     background-size: 100% auto; /* 100% da imagem no banner */
@@ -138,8 +138,16 @@ main div.taylor:hover, main div.katy:hover{
     text-decoration: underline;
 }
 
-main div.taylor div.not-image {background-image: url(imagens/notícias/not-taylor.png);}
-main div.katy div.not-image {background-image: url(imagens/notícias/not-katy.png);}
+main div.taylor div.not-image {background-image: url(../imagens/notícias/not-taylor.png);}
+main div.katy div.not-image {background-image: url(../imagens/notícias/not-katy.png);}
 
 /* ASIDE */
 
+aside {
+    width: 30vw;
+    float: right;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(99,82,116,1) 100%);
+    margin-right: 30px;
+    border-radius: 10px;
+    color: #FFFEDF;
+}
