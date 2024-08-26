@@ -145,9 +145,31 @@ main div.katy div.not-image {background-image: url(../imagens/notícias/not-katy
 
 aside {
     width: 30vw;
-    float: right;
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(99,82,116,1) 100%);
-    margin-right: 30px;
     border-radius: 10px;
     color: #FFFEDF;
+    padding: 20px;
+    float: right;
+    margin: 25px 20px 20px 20px
+}
+
+aside hr {
+    border: 1px solid #FFFEDF ;
+    opacity: 50%;
+    margin: 5px 0 5px 0;
+}
+
+aside p {
+    font-family: "Familjen Grotesk", sans-serif;;
+    text-align: justify;
+    color: #FFFEDF;
+}
+
+aside form input, aside form textarea {
+    width: 100%;
+}
+
+aside form {
+    margin-top: 10px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
