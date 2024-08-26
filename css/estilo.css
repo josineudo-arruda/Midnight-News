@@ -165,11 +165,48 @@ aside p {
     color: #FFFEDF;
 }
 
-aside form input, aside form textarea {
-    width: 100%;
+aside form input {
+    width: 95%;
+}
+
+aside form textarea {
+    height: 130px;
+    width: 95%;
 }
 
 aside form {
     margin-top: 10px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+}
+
+aside form input, aside form textarea {
+    padding: 5px;
+}
+
+aside input[type="submit"] {
+    background-color: #2E0D23;
+    color: #FFFEDF;
+    font-size: 18px;
+    align-items: center;
+    border: none;
+    padding: 10px;
+    transition: 0.5s ease;
+    margin-top: 15px;
+    width: 98%;
+}
+
+aside form label {
+    margin-top: 10px;
+}
+
+aside input[type="submit"]:hover {
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px 1px #2c344379;
+    filter:brightness(80%);
+}
+
+aside form ul {
+    text-align: center;
+    list-style-type: none;
 }
