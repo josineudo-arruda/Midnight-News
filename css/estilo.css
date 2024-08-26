@@ -225,3 +225,12 @@ aside form ul {
 aside div h3.ad {
     margin-top: 10px;
 }
+
+/* FOOTER */
+
+footer {
+    background-color: rgba(2,0,36,1);
+    padding: 20px;
+    color: #FFFEDF;
+    font-family:  "Familjen Grotesk", sans-serif;
+}
