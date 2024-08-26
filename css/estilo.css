@@ -173,12 +173,12 @@ aside p {
 }
 
 aside form input {
-    width: 95%;
+    width: 97%;
 }
 
 aside form textarea {
     height: 130px;
-    width: 95%;
+    width: 97%;
 }
 
 aside form {
@@ -200,7 +200,7 @@ aside input[type="submit"] {
     padding: 10px;
     transition: 0.5s ease-out;
     margin-top: 10px;
-    width: 98%;
+    width: 100%;
 }
 
 aside div form input, aside div form textarea {
