@@ -189,6 +189,10 @@ aside form {
     font-size: 15px;
 }
 
+aside a {
+    color: currentColor;
+}
+
 aside form input, aside form textarea {
     padding: 5px;
 }
