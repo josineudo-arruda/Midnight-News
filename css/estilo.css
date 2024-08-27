@@ -76,7 +76,7 @@ nav ul a:hover {background-color: rgba(2,0,36,1);}
 main {
     margin: 70px 20px 20px 20px;
     padding: 15px;
-    width: 60vw;
+    width: 70vw;
 }
 
 main div#banner-principal div.banner-image {
@@ -119,7 +119,7 @@ main div#noticias-boxes h3 {
 }
 
 main div#noticias-boxes {
-    width: 60vw;
+    width: 70vw;
     color: #2E0D23; 
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -151,7 +151,7 @@ main div.katy div.not-image {background-image: url(../imagens/notícias/not-katy
 /* ASIDE */
 
 aside {
-    width: 30vw;
+    width: 20vw;
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgb(83, 42, 81) 100%);
     border-radius: 10px;
     color: #FFFEDF;
@@ -227,9 +227,14 @@ aside div h3.ad {
     margin-top: 10px;
 }
 
+aside .center {
+    margin-top: 5px;
+}
+
 /* FOOTER */
 
 footer {
+    margin-top: 30px;
     background-color: rgba(2,0,36,1);
     padding: 20px;
     color: #FFFEDF;
