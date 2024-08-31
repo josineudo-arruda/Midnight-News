@@ -1,0 +1,74 @@
+
+main section.banner {
+    display: flex;
+    width: 70vw;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10vw;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+hr {
+    border: 1px solid #2E0D23 ;
+    opacity: 50%;
+}
+
+main div.banner-image {
+    width: 100%; 
+    height: 440px;
+    background-image: url(../imagens/notícias/banner-triangulo.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 100% auto; /* 100% da imagem no banner */
+    transition: 0.5s ease;
+}
+
+section.about {
+    display: flex;
+    width: 70vw;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10vw;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+main div.banner-image.taylor {
+    background-image: url(../imagens/notícias/not-taylor.png);
+}
+
+main div.banner-image.charli {
+    background-image: url(../imagens/notícias/not-charli.jpeg);
+}
+
+main div.banner-image.katy {
+    background-image: url(../imagens/notícias/not-katy.png);
+}
+
+main div.banner-image.sabrina {
+    background-image: url(../imagens/notícias/not-sabrina.jpeg);
+}
+
+main div.banner-image:hover {
+    box-shadow: 1px 1px 10px 1px #2c344325;
+    transform: scale(1);
+    filter:brightness(80%);
+}
+
+main div.content {
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section.about ul {
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+main div.content p,  section.about p {
+    margin-bottom: 20px;
+}
